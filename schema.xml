@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<config category="IPFilter" description="Customer category IPFilter" version="398490f187">
+        <type code="0" group="url" name="url"/>
+        <type code="1" group="ip" name="ip_addr"/>
+        <type code="2" group="ip" name="ip_range"/>
+        <type code="3" group="ip" name="ip_subnet"/>
+        <type code="4" name="description"/>
+</config>
