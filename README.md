@@ -6,7 +6,7 @@ Configure the SRX security-intelligence module to point to you web server - the 
 
 ```
 set services security-intelligence url http://192.168.1.1/manifest.xml
-set services security-intelligence authentication auth-token 1234567890123456789012
+set services security-intelligence authentication auth-token 12345678901234567890121234567890
 ```
 The```manifest.xml```file provides a list of available "feeds" of IP addresses eg:
 
