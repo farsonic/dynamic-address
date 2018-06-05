@@ -41,7 +41,7 @@ The SRX then consults the```manifest.xml```file for a feed named BADSITES, downl
 
 The SRX will now consult the feed every update interval and dynamically add or remove addresses as they are available, all without requiring a configuration change.
 
-**NOTE:** As of this writing (Junos 12.3X48D10), dynamic-address entries can only be used in security policies; NAT rules only consult the global and zone-based address-books for address entries.
+**NOTE:** As of this writing this has been tested on Junos 12.3X48D10 and 15.1X49-D110 code releases, dynamic-address entries can only be used in security policies; NAT rules only consult the global and zone-based address-books for address entries.
 
 # Usage
 **Create a new feed**
