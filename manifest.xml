@@ -1,0 +1,12 @@
+<manifest version="3540642feac48e76af183a6e79d55404">
+  <category description="Customer category IPFilter" name="IPFilter" options="" ttl="2592000" update_interval="1">
+    <config version="398490f188">
+      <url>/schema.xml</url>
+    </config>
+    <feed data_ts="1428558808" name="BADSITES" objects="36" options="" types="ip_addr ip_range" version="BADSITES">
+      <data>
+        <url>/</url>
+      </data>
+    </feed>
+  </category>
+</manifest>
