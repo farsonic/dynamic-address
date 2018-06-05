@@ -2,6 +2,8 @@
 
 The SRX firewall can be configured to monitor a central web server for a list of IP Addresses to create a dynamic address book using the```security-intelligence```feature-set.
 
+This software will need to be installed on an existing web-server and the python file modified to point to the correct base directory of the web-server. Clone all files and copy the schema.xml and manifest.xml file to the base of the web server. 
+
 Configure the SRX security-intelligence module to point to you web server - the auth-token is required to commit (32 ascii chars), but is only used by Junos Space to authenticate the device:
 
 ```
